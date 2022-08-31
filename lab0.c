@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
-#include <string.h>
 /*
  * Location: Temple University Computer Science
  * Programmer: Dongjue Xie
@@ -12,7 +11,6 @@
  * Description: A simple implementation of the
  * Unix binary "ls"
  */ 
-
 char* file_type(int);
 
 int
